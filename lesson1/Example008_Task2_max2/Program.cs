@@ -1,12 +1,16 @@
 ﻿Console.Clear();
 
-int a = -9;
-int b = -3;
+Console.Write("введите число a: ");
+int a = Convert.ToInt32(Console.ReadLine());   
+
+Console.Write("введите число b: ");
+int b = Convert.ToInt32(Console.ReadLine());   
 
 int max = a;
+int min = b;
 
-if(a > max) max = a;
-if(b > max) max = b;
+if(a > b) max = a;
+if(b > a) max = b;
 
 Console.Write("max = ");
 Console.WriteLine(max);

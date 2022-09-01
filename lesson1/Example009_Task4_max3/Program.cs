@@ -1,8 +1,14 @@
 ﻿Console.Clear();
 
-int a = 44;
-int b = 5;
-int c = 78;
+
+Console.Write("введите число a: ");
+int a = Convert.ToInt32(Console.ReadLine());   
+
+Console.Write("введите число b: ");
+int b = Convert.ToInt32(Console.ReadLine());   
+
+Console.Write("введите число c: ");
+int c = Convert.ToInt32(Console.ReadLine());   
 
 int max = a;
 

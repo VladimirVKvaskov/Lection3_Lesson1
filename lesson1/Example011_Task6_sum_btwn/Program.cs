@@ -1,6 +1,7 @@
 ﻿Console.Clear();
 
-int a = 8;
+Console.Write("введите число: ");
+int a = Convert.ToInt32(Console.ReadLine());
 int count = 1;
 
     while(count < a+1)
